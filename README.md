@@ -33,9 +33,9 @@ pip install -r requirements.txt
 ## Penggunaan
 
 Untuk menjalankan dashboard, jalankan perintah berikut di terminal Anda:
-
+```
 streamlit run dashboard.py
-
+```
 
 ## Kredit
 
