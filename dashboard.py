@@ -40,7 +40,7 @@ main_df = all_df[(all_df["dteday"] >= start_date) &
 
 daily_orders_df = create_daily_orders_df(main_df)
 
-st.header('Dicoding Collection Dashboard :sparkles:')
+st.header('Dashboard Penggunaan Sepeda :bike:')
 
 pola_penggunaan_sepeda_berubah = all_df.groupby('mnth_x')['cnt_x'].sum().reset_index()
 
