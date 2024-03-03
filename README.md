@@ -26,13 +26,13 @@ Pastikan Anda telah menginstal library Python berikut:
 
 ## Penggunaan
 
-Anda dapat menginstal library yang diperlukan menggunakan perintah berikut:
+Pengguna menginstal library yang diperlukan menggunakan perintah berikut:
 ```
 pip install -r requirements.txt
 ```
 ## Penggunaan
 
-Untuk menjalankan dashboard, jalankan perintah berikut di terminal Anda:
+Untuk menjalankan dashboard, jalankan perintah berikut di terminal:
 ```
 streamlit run dashboard.py
 ```
