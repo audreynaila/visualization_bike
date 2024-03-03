@@ -23,15 +23,12 @@ Pastikan Anda telah menginstal library Python berikut:
 - Streamlit versi: (Harap pastikan untuk menginstal versi yang sesuai sesuai kebutuhan Anda)
 - Scikit-learn versi: 1.2.2
 
-Anda dapat menginstal library yang diperlukan menggunakan perintah berikut:
-
-pip install -r requirements.txt
-
 
 ## Penggunaan
 
-Untuk menjalankan dashboard, jalankan perintah berikut di terminal Anda:
+Anda dapat menginstal library yang diperlukan menggunakan perintah berikut:
 
+pip install -r requirements.txt
 
 ## Penggunaan
 
