@@ -24,8 +24,22 @@ all_df["dteday"] = pd.to_datetime(all_df["dteday"], format="%Y-%m-%d")
 min_date = all_df["dteday"].min()
 max_date = all_df["dteday"].max()
 
+
 with st.sidebar:
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.markdown("""
+    <style>
+        .hitam-text {
+            color: #000000;
+            text-align: center; 
+            font-size: 32px; 
+            font-weight: bold; 
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+    st.markdown('<p class="hitam-text">Bike Orders</p>', unsafe_allow_html=True)
+
+    st.image("https://github.com/audreynaila/visualization_bike/blob/main/bike.png?raw=true")
     
     start_date, end_date = st.date_input(
         label='Rentang Waktu',min_value=min_date,
