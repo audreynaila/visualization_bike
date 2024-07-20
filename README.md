@@ -14,8 +14,6 @@ Skrip `dashboard.py` membaca data pemesanan sepeda dari sebuah file CSV (`all_da
 
 ## Persyaratan
 
-Pastikan Anda telah menginstal library Python berikut:
-
 - NumPy versi: 1.25.2
 - Pandas versi: 1.5.3
 - Matplotlib versi: 3.7.1
